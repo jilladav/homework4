@@ -214,6 +214,21 @@ p {
 		width: 40%;
 	}
 
+	.pair {
+		display: grid;
+		grid-template-columns: auto auto;
+		text-align: right;
+		margin-top: 2.5vh;
+	}
+
+	.triple {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		text-align: right;
+		margin-top: 2.5vh;
+
+	}
+
 	/*.home h2 {
 		font-size: 4.5vw;
 		margin-top: 10vh;
