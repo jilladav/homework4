@@ -17,6 +17,7 @@ a.skip{
 	text-decoration: none;
 	position: relative;
     top: -80px;
+    transition: top ease-in 0.5s;
 }
 
 a.skip:focus{
@@ -226,10 +227,10 @@ p {
 	}
 
 	.item .personas img {
-	width: 100%;
-	display:flex;
-    align-items:center;
-    justify-content:center;
+		width: 100%;
+		display: flex;
+	    align-items:center;
+	    justify-content:center;
 	}
 
 	.item .storymap img {
@@ -241,6 +242,21 @@ p {
 
 
 	.item {
+		margin-right: 1vw;
+		margin-left: 1vw;
+	}
+
+	.consulting p {
+		margin-right: 1vw;
+		margin-left: 1vw;
+	}
+
+	.interaction p {
+		margin-right: 1vw;
+		margin-left: 1vw;
+	}
+
+	.about p {
 		margin-right: 1vw;
 		margin-left: 1vw;
 	}
@@ -264,13 +280,6 @@ p {
 		margin-top: 2.5vh;
 	}
 
-	.triple {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		text-align: right;
-		margin-top: 2.5vh;
-*/
-	}
 
 	/*.home h2 {
 		font-size: 4.5vw;
@@ -289,13 +298,10 @@ p {
 		grid-template-columns: auto auto;
 		align-items: start;
 		margin-bottom: 2.5vh;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
-	.current{
-		text-decoration: underline;
-		background-color: none;
-		color: #357CA3;
-	}
 
 	.interaction .item img {
 		width: 90%;
@@ -318,17 +324,21 @@ p {
 
 	.content {
 		display: grid;
-		align-items: flex-start;
+		align-items: start;
 	}
 
 	.content p, h2 {
 		text-align: left;
 	}
 
-	.interaction .item p {
+	.content .item p {
+		text-align: left;
+	}
+
+	/*.interaction .item p {
 		display: grid;
 		align-items: center;
-	}
+	}*/
 
 	nav a {
 		display:inline;
@@ -348,6 +358,28 @@ p {
 		top: -3vh;
 		position: relative;
 		border-bottom: 0.5vh solid #357CA3;
+	}
+
+	.current{
+		text-decoration: underline;
+		background-color: white;
+		color: #357CA3;
+	}
+}
+
+@media screen and (prefers-reduced-motion: reduce) { 
+	a.skip{
+	padding:1px;
+	text-decoration: none;
+	position: relative;
+    top: -80px;
+	}
+
+a.skip:focus{
+	position: relative;
+	background-color: white;
+	top: 7.5px;
+	border: 1px solid black;
 	}
 	
 }
