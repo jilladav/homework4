@@ -151,6 +151,12 @@ p {
 	margin-bottom: 2.5vh;
 }
 
+.about .item img {
+	/*width: 75%;*/
+	width: 25vw;
+	margin-right: 5vw;
+}
+
 .interaction .item img {
 	width: 75vw;
 }
@@ -196,6 +202,8 @@ p {
 .home img {
 	width: 40vw;
 }
+
+
 
 .fa-linkedin {
 	/*color: #357CA3;*/
