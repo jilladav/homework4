@@ -151,12 +151,6 @@ p {
 	margin-bottom: 2.5vh;
 }
 
-.about .item img {
-	/*width: 75%;*/
-	width: 25vw;
-	margin-right: 5vw;
-}
-
 .interaction .item img {
 	width: 75vw;
 }
@@ -343,6 +337,12 @@ p {
 
 	.content .item p {
 		text-align: left;
+	}
+
+	.about .item img {
+		/*width: 75%;*/
+		width: 25vw;
+		margin-right: 5vw;
 	}
 
 	/*.interaction .item p {
