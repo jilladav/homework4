@@ -1,4 +1,3 @@
-
 nav {
 	display: flex;
 	justify-content: center;
@@ -71,7 +70,6 @@ nav li {
 /*.consultingtitle {
 	background-image: url("../images/affinity.jpg");
 }
-
 .consultingtitle h1{
 	color: black;
 }*/
@@ -79,11 +77,9 @@ nav li {
 /*.about {
 	background-image: url("../images/michigan.jpeg");
 }
-
 .about p {
 	background-color: white;
 }
-
 .about h2{
 	background-color: white;
 }*/
@@ -242,7 +238,6 @@ p {
 	    justify-content:center;
 	}
 
-
 	.item {
 		margin-right: 1vw;
 		margin-left: 1vw;
@@ -253,16 +248,45 @@ p {
 		margin-left: 2vw;
 	}
 
+	.pair {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		margin-bottom: 5vh;
+		padding: 1vh;
+		border: solid #357CA3 2px;
+	}
+
+	.pair h2 {
+		display: grid;
+		align-items: center;
+		margin-right: 10vw;
+		font-size: 35px;
+	}
+
+	.interaction .pair img {
+		width: 100%;
+	}
+
+	.consulting .pair img{
+		width: 80%;
+	}
+
+	/*.consulting .pair ul {
+		list-style: none;
+	}*/
+
+	/*.interaction .pair .personas img {
+		width: 25vw;
+	}*/
+
 	/*.interaction p {
 		margin-right: 1vw;
 		margin-left: 1vw;
 	}
-
 	.about p {
 		margin-right: 1vw;
 		margin-left: 1vw;
 	}
-
 	.consulting li {
 		margin-left: 2vw;
 		margin-right: 2vw;
@@ -272,7 +296,6 @@ p {
 		display: grid;
 		flex-direction: row;
 		align-items: flex-start;
-
 	}*/
 
 	/*.pair {
@@ -281,8 +304,6 @@ p {
 		text-align: right;
 		margin-top: 2.5vh;
 	}
-
-
 	/*.home h2 {
 		font-size: 4.5vw;
 		margin-top: 10vh;
@@ -345,10 +366,12 @@ p {
 		margin-right: 5vw;
 	}
 
-	/*.interaction .item p {
-		display: grid;
-		align-items: center;
-	}*/
+	.pair {
+		display: flex;
+		flex-direction: column;
+		border: none;
+		margin-bottom: 0;
+	}
 
 	nav a {
 		display:inline;
@@ -370,6 +393,12 @@ p {
 		border-bottom: 0.5vh solid #357CA3;
 	}
 
+	.consulting .pair .item img {
+		width: 40vw;
+		margin-left: 2vw;
+
+	}
+
 	.current{
 		text-decoration: underline;
 		background-color: white;
@@ -377,7 +406,7 @@ p {
 	}
 }
 
-@media screen and (prefers-reduced-motion: reduce) { 
+/*@media screen and (prefers-reduced-motion: reduce) { 
 	a.skip{
 	padding:1px;
 	text-decoration: none;
@@ -392,8 +421,4 @@ a.skip:focus{
 	border: 1px solid black;
 	}
 	
-}
-
-
-
-
+}*/
