@@ -200,7 +200,7 @@ p {
 	color: black;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:900px) {
 	nav a {
 		display: inline-block;
 		width: 45vw;
