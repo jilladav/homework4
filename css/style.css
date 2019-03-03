@@ -243,6 +243,10 @@ p {
 		margin-left: 1vw;
 	}
 
+	.about .item img {
+		width: 25vw;
+	}
+
 	.content p, h2 {
 		margin-right: 2vw;
 		margin-left: 2vw;
